@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+  <title>Tanish Pagaria</title>
+  <link rel="icon" type="image/png" href="./assets/logo.png" />
+
+  <link rel="preload" as="style" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script defer src="./javascript/scrollreveal.min.js"></script>
+  <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag("js", new Date())
+
+    gtag("config", "UA-122228201-4")
+  </script>
+</head>
+
+<body>
+  <div id="hero">
+    <section class="container">
+      <h1 class="hero-title">
+        Hi, my name is <span class="text-color-main name">Tanish Pagaria</span>
+        <br />
+        Welcome to my digital space!
+      </h1>
+      <p class="hero-cta">
+        <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+      </p>
+    </section>
+    <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+      <div class="scroll-down"></div>
+    </a>
+  </div>
+
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="row about-wrapper">
+        <div class="about-wrapper__image">
+          <img class="img-fluid" src="./assets/profile.png" alt="Profile Image" width="450" height="350" />
+        </div>
+        <div class="about-wrapper__info">
+          <p class="about-wrapper__info-text">
+            I'm Tanish Pagaria, a pre-final year B.Tech. student at IIT Jodhpur, pursuing Artificial Intelligence and
+            Data Science. I am passionate
+            about leveraging technology to solve real-world problems.
+          </p>
+          <p class="about-wrapper__info-text">
+            I have worked primarily in the domain of software development, with a strong emphasis on machine learning
+            and data-driven solutions. My focus lies in tackling complex problems, developing predictive models, and
+            harnessing data to derive actionable insights.
+          </p>
+          <span class="about-wrapper__cta">
+            <a href="https://drive.google.com/file/d/1KJwv70VsvWDuBD-x-wM0yYy_x6F-V8lF/view?usp=drive_link"
+              class="cta-btn cta-btn--resume">View Resume</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Key Projects</h2>
+
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">VideoQuest</h3>
+            <p class="project-wrapper__text-info">
+              A video search engine with a GUI utilizing MongoDB, Neo4j, and MySQL for data storage.
+            </p>
+            <p style="margin-bottom: 20px;">
+              It features video indexing, relationship management, user authentication, sentiment analysis for comments,
+              and personalized video recommendations.
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://drive.google.com/file/d/1EUzJmuM91H0Fe28PXFvUMv_X57JwLa-Z/view?usp=drive_link"
+                target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">Video
+                Demonstration</a>
+              <a href="https://github.com/sagnikCodes/VideoQuest" target="_blank" class="cta-btn text-color-main">Source
+                Code</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="https://github.com/sagnikCodes/VideoQuest" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="./assets/videoquest.png" class="img-fluid" alt="Project Image" width="1366" height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Football Club Logo Recognizer</h3>
+            <p class="project-wrapper__text-info">
+              A machine learning pipeline to classify logos from teams in the top 5 football leagues.
+            </p>
+            <p style="margin-bottom: 20px;">
+              The dataset was
+              generated by augmenting single images for each team. The classification employed various machine learning
+              algorithms, such as Convolutional Neural Networks and SVM. The tech-stack includes Python, Scikit-Learn,
+              PyTorch, TensorFlow, Pandas, Matplotlib, Pillow, and Streamlit.
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://football-club-logo-recognition.streamlit.app/" target="_blank" rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="https://github.com/yorozuya-2003/Football-Club-Logo-Recognizer" target="_blank"
+                class="cta-btn text-color-main">Source Code</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="https://football-club-logo-recognition.streamlit.app/" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="./assets/footballclubrecognizer.png" class="img-fluid" alt="Project Image" width="1366"
+                  height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Water Quality Prediction</h3>
+            <p class="project-wrapper__text-info">
+              Water Quality Prediction, part of the Intel OneAPI AI Hackathon, aimed to assess freshwater
+              sustainability.
+            </p>
+            <p style="margin-bottom: 20px;">
+              The project developed a binary classification model using TabNet ensembling, achieving 87.39% accuracy and
+              a 0.81786 F1 score. Handling a large dataset with missing values was made effective through detailed data
+              analysis. The tech-stack involved Python, Intel AI Analytics Toolkit, Scikit-Learn, PyTorch, and Pandas.
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://youtu.be/_Yrenj-xhrw?feature=shared" target="_blank" rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects">See
+                Prototype Video</a>
+              <a href="https://github.com/VinayVaishnav/Water_Quality_Prediction" target="_blank"
+                class="cta-btn text-color-main">Source Code</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="https://github.com/VinayVaishnav/Water_Quality_Prediction" target="_blank"
+              rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="./assets/waterqualityprediction.png" class="img-fluid" alt="Project Image" width="1366"
+                  height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <!-- <h2 class="section-title">Contact</h2> -->
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">Let's connect!</p>
+        <a href="mailto:pagaria.2@iitj.ac.in" class="cta-btn cta-btn--resume">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <a href="#hero" class="back-to-top" aria-label="go back to top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="tel:+918619699434" target="_blank" rel="noopener noreferrer" aria-label="phone">
+          <i class="fa fa-phone"></i>
+        </a>
+        <a href="mailto:pagaria.2@iitj.ac.in" target="_blank" rel="noopener noreferrer" aria-label="email">
+          <i class="fa fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/tanish-pagaria-007251225/" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/yorozuya-2003" target="_blank" rel="noopener noreferrer" aria-label="github">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <hr />
+      <p class="footer__text">
+        &copy; <span id="year"></span> . Tanish Pagaria . All
+        rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear()
+  </script>
+  <script src="./javascript/vanilla-tilt.min.js"></script>
+  <script type="text/javascript" src="./javascript/valtilt.js"></script>
+</body>
+
+</html>
